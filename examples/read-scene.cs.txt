@@ -1,0 +1,1 @@
+return new { scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().path, isPlaying = UnityEditor.EditorApplication.isPlaying, rootCount = UnityEngine.SceneManagement.SceneManager.GetActiveScene().rootCount };

@@ -1,0 +1,19 @@
+# Local caches, IDE state and generated Unity data
+__pycache__/
+*.py[cod]
+.vs/
+.vscode/
+.idea/
+Library/
+Temp/
+Logs/
+obj/
+bin/
+.unity-cli-portable/
+*.zip
+*.zip.sha256
+.DS_Store
+
+# The pinned executable is distributed in Release assets.
+/unity-cli.exe
+/.unity-cli-*.tmp

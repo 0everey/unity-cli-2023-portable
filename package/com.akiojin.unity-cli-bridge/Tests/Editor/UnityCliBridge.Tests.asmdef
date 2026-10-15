@@ -1,0 +1,44 @@
+{
+    "name": "UnityCliBridge.Tests",
+    "rootNamespace": "UnityCliBridge.Tests",
+    "references": [
+        "UnityCliBridge.Editor",
+        "UnityCliBridge.Runtime",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "",
+            "define": "UNITY_INPUT_SYSTEM_PACKAGE"
+        },
+        {
+            "name": "com.unity.visualeffectgraph",
+            "expression": "",
+            "define": "UNITY_VFX_GRAPH"
+        },
+        {
+            "name": "com.unity.addressables",
+            "expression": "",
+            "define": "UNITY_ADDRESSABLES"
+        }
+    ],
+    "noEngineReferences": false
+}
